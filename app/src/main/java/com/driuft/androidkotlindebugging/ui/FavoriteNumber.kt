@@ -14,6 +14,7 @@ class FavoriteNumber : AppCompatActivity() {
         setContentView(R.layout.activity_favorite_number)
 
         val number: Int = null!!
+
         favoriteNumber.text = "$number"
     }
 }
